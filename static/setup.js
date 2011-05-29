@@ -14,4 +14,7 @@ function rewriteWikiLinksToThisSite() {
   });
 }
 
-$(window).ready(rewriteWikiLinksToThisSite);
+$(window).ready(function() {
+  rewriteWikiLinksToThisSite();
+  document.title = config.siteName + " - " + document.title;
+});

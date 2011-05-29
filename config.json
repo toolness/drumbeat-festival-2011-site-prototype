@@ -1,5 +1,6 @@
 {
   "port": "8073",
   "hostname": "127.0.0.1",
+  "siteName": "Mozilla Drumbeat Festival 2011",
   "baseContent": "https://wiki.mozilla.org/Drumbeat/Festival2011"
 }
