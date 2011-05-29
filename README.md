@@ -1,6 +1,6 @@
 # Introduction And Motivation
 
-This is a prototype for the [openbadges.org][] site.
+This is a prototype for the Drumbeat Festival 2011 site.
 
 Most [Mozilla Drumbeat][] projects start off as wiki pages and evolve into websites once they get off the ground. However, turning them into scalable, production-ready websites takes a lot of time and it's often the case that there are barriers to making simple modifications to them.
 
@@ -10,13 +10,13 @@ This simple prototype uses a project's existing wiki as a "back end" for a websi
 
 # URL Mapping
 
-The site mirrors content at [https://wiki.mozilla.org/Badges][wiki], and hosts anything that starts with it. Thus, for instance, this page: 
+The site mirrors content at [https://wiki.mozilla.org/Drumbeat/Festival2011][wiki], and hosts anything that starts with it. Thus, for instance, this page: 
 
-    https://wiki.mozilla.org/Badges/Backpack
+    https://wiki.mozilla.org/Drumbeat/Festival2011/Sessions
 
 Can be viewed at:
 
-    http://openbadges.org/Backpack
+    http://festival2011.moz10.org/Sessions
 
 All other wiki links remain unmodified and point back to the original site.
 
@@ -34,7 +34,7 @@ The file [template.html][] is used as a simple template every page on the site. 
 
 # Editing Files
 
-If you're a designer, ask [Atul][] for commit access to this repository. Once you have it, you can edit the template file and any static files by visiting them on github and clicking the "Edit this file" button. As soon as you commit your changes, the openbadges.org site is automatically updated.
+If you're a designer, ask [Atul][] for commit access to this repository. Once you have it, you can edit the template file and any static files by visiting them on github and clicking the "Edit this file" button. As soon as you commit your changes, the website is automatically updated.
 
 Alternatively, you're also welcome to [fork with the edit button][fork].
 
@@ -44,8 +44,8 @@ The core server requires [node.js][] and has been tested with v0.3.6.
 
 To start the server, run this in your shell:
 
-    $ git clone git://github.com/toolness/openbadges-site-prototype.git
-    $ cd openbadges-site-prototype
+    $ git clone git://github.com/toolness/drumbeat-festival-2011-site-prototype.git
+    $ cd drumbeat-festival-2011-site-prototype
     $ node server.js
 
 Then, open http://localhost:8072 in your browser.
@@ -55,8 +55,7 @@ Then, open http://localhost:8072 in your browser.
   [Atul]: https://github.com/toolness
   [node.js]: http://nodejs.org/
   [Mozilla Drumbeat]: http://drumbeat.org/
-  [openbadges.org]: http://openbadges.org/
-  [wiki]: https://wiki.mozilla.org/Badges
-  [template.html]: https://github.com/toolness/openbadges-site-prototype/blob/master/template.html
-  [static]: https://github.com/toolness/openbadges-site-prototype/tree/master/static
+  [wiki]: https://wiki.mozilla.org/Drumbeat/Festival2011
+  [template.html]: https://github.com/toolness/drumbeat-festival-2011-site-prototype/blob/master/template.html
+  [static]: https://github.com/toolness/drumbeat-festival-2011-site-prototype/tree/master/static
   [fork]: https://github.com/blog/844-forking-with-the-edit-button
