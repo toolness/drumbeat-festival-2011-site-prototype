@@ -16,7 +16,7 @@ The site mirrors content at [https://wiki.mozilla.org/Drumbeat/Festival2011][wik
 
 Can be viewed at:
 
-    http://festival2011.moz10.org/Sessions
+    http://festival2011.toolness.org/Sessions
 
 All other wiki links remain unmodified and point back to the original site.
 
