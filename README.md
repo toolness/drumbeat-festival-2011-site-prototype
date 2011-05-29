@@ -48,7 +48,7 @@ To start the server, run this in your shell:
     $ cd drumbeat-festival-2011-site-prototype
     $ node server.js
 
-Then, open http://localhost:8072 in your browser.
+Then, open http://localhost:8073 in your browser.
 
 <!-- Links begin here. -->
 
