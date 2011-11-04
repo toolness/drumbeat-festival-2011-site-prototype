@@ -9,7 +9,7 @@ function rewriteWikiLinksToThisSite() {
     $('a[href^="' + this + '"]').each(function() {
       var href = $(this).attr("href");
       var newHref = href.slice(config.baseContent.length);
-      $(this).attr("href", newHref);
+      //$(this).attr("href", newHref);
     });
   });
 }
